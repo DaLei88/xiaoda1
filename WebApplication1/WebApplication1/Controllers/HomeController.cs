@@ -26,5 +26,11 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+
+	public int jisuan(int a,int b)
+        {
+          
+            return a+b;
+        }
     }
 }
